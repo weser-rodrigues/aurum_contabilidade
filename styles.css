@@ -232,7 +232,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 600; line-height: 1.08
 }
 .hero .wrap { position: relative; z-index: 2; }
 .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: clamp(40px, 5vw, 80px); align-items: center; }
-.hero h1 { margin: 22px 0 0; }
+.hero h1 { margin: 22px 0 0; padding-bottom: 0.12em; }
 .hero .lead { margin: 24px 0 36px; color: #eef1f8; }
 .hero .btn-outline { color: #eef1f8; border-color: rgba(244,217,139,.32); }
 .hero .btn-outline:hover { border-color: var(--gold-300); color: var(--gold-300); }
